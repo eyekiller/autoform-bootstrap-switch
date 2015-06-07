@@ -1,5 +1,7 @@
+# THIS IS A FIX TO USE THE LAST VERSION OF AUTOFORMS
+
 # AutoForm Bootstrap Switch
-[![Build Status](https://img.shields.io/travis/ctjp/autoform-bootstrap-switch.svg?style=flat)](https://travis-ci.org/ctjp/autoform-bootstrap-switch)
+[![Build Status](https://img.shields.io/travis/eyekiller/autoform-bootstrap-switch.svg?style=flat)](https://travis-ci.org/eyekiller/autoform-bootstrap-switch)
 
 An add-on Meteor package for [aldeed:autoform](https://github.com/aldeed/meteor-autoform). Provides a single custom input type, "bootstrap-switch", which renders an input using the [bootstrap-switch](https://github.com/nostalgiaz/bootstrap-switch) plugin.
 
@@ -19,7 +21,7 @@ $ meteor add aldeed:autoform
 In a Meteor app directory, enter:
 
 ```bash
-$ meteor add ctjp:autoform-bootstrap-switch
+$ meteor add eyekiller:autoform-bootstrap-switch
 ```
 
 ## Usage

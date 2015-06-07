@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'ctjp:autoform-bootstrap-switch',
+  name: 'eyekiller:autoform-bootstrap-switch',
   summary: 'Custom input type "bootstrap-switch" for AutoForm',
-  version: '0.1.0',
-  git: 'https://github.com/ctjp/autoform-bootstrap-switch.git'
+  version: '0.3.0',
+  git: 'https://github.com/eyekiller/autoform-bootstrap-switch.git'
 });
 
 Package.onUse(function(api) {
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
     'templating',
 
     // Additional packages
-    'aldeed:autoform@4.0.6'
+    'aldeed:autoform'
   ], 'client');
 
   //== Add files
@@ -31,7 +31,7 @@ Package.onTest(function(api) {
   // Client only
   api.use([
     'tinytest',
-    'ctjp:autoform-bootstrap-switch'
+    'eyekiller:autoform-bootstrap-switch'
   ], 'client');
 
   //== Add files
